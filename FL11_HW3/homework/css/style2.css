@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #21232e;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.header {
+  height: 630px;
+  background: url(../img/m-h-night.jpg) no-repeat;
+  border-radius: 0 0 40% 0;
+  background-size: 100%;
+  background-position-y: -135px; }
+  .header .header-wrap {
+    position: relative;
+    margin-left: 10%; }
+
+.landing-logo {
+  padding-top: 10px;
+  color: white; }
+  .landing-logo p {
+    width: 60px;
+    display: inline-block;
+    font: bold 1.3rem/0.8rem "Fresca", sans-serif;
+    text-align: center;
+    padding: 10px; }
+    .landing-logo p span {
+      display: inline-block;
+      font: normal 0.6rem "Fresca", sans-serif; }
+
+.landing-logo img {
+  width: 40px;
+  vertical-align: top; }
+
+.header_heading {
+  width: 450px;
+  color: white;
+  font-size: 3.9rem;
+  font-weight: bold;
+  line-height: 3.8rem;
+  padding-top: 60px;
+  position: relative;
+  z-index: 1; }
+  .header_heading:before {
+    content: '';
+    position: absolute;
+    background-color: #ff4e33;
+    width: 260px;
+    height: 20px;
+    bottom: 0;
+    z-index: -1; }
+
+.header_text {
+  color: white;
+  padding-top: 30px;
+  font: 500 0.9rem "Fresca", sans-serif;
+  white-space: pre-line; }
+
+.header_button {
+  margin-top: 55px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+  background-color: #e3ac00;
+  width: 130px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  border-width: 0;
+  border-radius: 2px; }
+
+.section > p {
+  color: white;
+  width: max-content;
+  position: relative;
+  margin: 20px auto;
+  font-size: 2rem;
+  z-index: 1; }
+  .section > p:before {
+    content: '';
+    position: absolute;
+    background-color: #ff4e33;
+    width: 135px;
+    height: 10px;
+    bottom: 5px;
+    z-index: -1;
+    right: 11px; }
+
+.section_card_wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px; }
+  .section_card_wrap .section_card {
+    width: 315px;
+    text-align: center;
+    margin: 8px;
+    background-color: #3b3f50;
+    border-radius: 5px;
+    padding: 17px; }
+    .section_card_wrap .section_card .section_card_img {
+      width: 100%;
+      border-radius: 4px; }
+
+.section_card_heading {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4rem;
+  padding: 18px 0;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 0.2;
+  z-index: 1; }
+  .section_card_heading .section_card_underline {
+    z-index: -1;
+    width: 100%;
+    border-bottom: 10px solid #ff4e33;
+    position: absolute;
+    left: 0; }
+
+.section_card_text {
+  display: inline-table;
+  vertical-align: middle;
+  color: #c8d1d1;
+  font: 300 0.9rem "Fresca", sans-serif; }
+
+.section_banner {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, #e1a900 20%, #ba6d28 60%, #a54a3f 80%, #922b53 100%);
+  border-radius: 5px;
+  width: 850px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .section_banner .section_banner_text_wrap {
+    width: 70%;
+    margin-left: 50px; }
+    .section_banner .section_banner_text_wrap .section_banner_heading {
+      color: white;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      font-weight: bold;
+      position: relative; }
+      .section_banner .section_banner_text_wrap .section_banner_heading:before {
+        content: '';
+        position: absolute;
+        background-color: #ff4e33;
+        width: 55px;
+        height: 10px;
+        bottom: 7px;
+        z-index: -1;
+        left: 95px; }
+
+.section_banner_text {
+  color: #d1d1d1;
+  font: normal 0.9rem "Fresca", sans-serif; }
+
+.section_banner_button {
+  margin-right: 45px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+  background-color: #e3ac00;
+  width: 130px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  border-width: 0;
+  border-radius: 2px; }
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  height: 200px;
+  width: 100%;
+  background-color: #3b3f50; }
+  .footer-wrap .footer_logo, .footer-wrap .footer_text, .footer-wrap .footer-cr {
+    flex: 1;
+    color: #d1d1d1;
+    padding-left: 100px; }
+
+.footer_text, .footer-cr {
+  font: normal 0.8rem "Fresca", sans-serif;
+  padding-right: 50px; }
