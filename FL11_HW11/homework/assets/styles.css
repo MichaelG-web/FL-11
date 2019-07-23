@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+#root {
+  width: 100%;
+}
+h1 {
+  font-size: 2rem;
+  color: #41B5FE;
+}
+.overflowActions {
+	text-align: center;
+	color: red;
+	padding-bottom: 5px;
+}
+.main-discription {
+  text-align: center;
+  margin: 3% 0;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+#new-action {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #D5DBE1;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding-left: 15px;
+  color: #787878;
+}
+#add-button,
+#edit-button,
+#delete-button,
+#save-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+#add-button i {
+  color: #C8D0D8;
+  font-size: 3rem;
+  padding: 0 3%;
+}
+hr {
+  border: none;
+  background-color: #E4F2FE;
+  height: 4px;
+}
+p {
+	color: #41B5FE;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.nth-action {
+  display: flex;
+  justify-content: space-between;
+}
+.nth-action #check-action {
+  display: none;
+}
+.nth-action .checked {
+  display: none;
+}
+.nth-action .left-section {
+	display: flex;
+}
+.nth-action .left-section label i {
+  color: #C8D0D8;
+  font-size: 2rem;
+}
+.nth-action .left-section button i,
+.nth-action .right-section button i,
+.nth-action-edit button i {
+  color: #41B5FE;
+  font-size: 2rem;
+}
+.nth-action-edit {
+  display: flex;
+  justify-content: flex-start;
+}
+.nth-action-edit #edit-action {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #D5DBE1;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding-left: 15px;
+  color: #787878;
+}
